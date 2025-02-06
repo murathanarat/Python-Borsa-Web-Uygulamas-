@@ -4,7 +4,7 @@ from datetime import date
 from dateutil.relativedelta import relativedelta
 
 
-options = ["1d", "1wk", "1mo","1m", "2m", "5m", "15m", "30m", "60m"]
+options = ["1d" , "1wk", "1mo" , "60m"]
 
 data_name = st.text_input("Ara" , value="BTC-USD")
 
